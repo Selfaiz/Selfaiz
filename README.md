@@ -19,7 +19,7 @@
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Smail EL Faiz" height="30" width="40" /></a>
   <a href="https://www.facebook.com/smail.napoli.714" target="_blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Smail El Faiz" height="30" width="40" /></a>
-  <a href="https://instagram.com/elfaiz_smail" target="blank">
+  <a href="https://instagram.com/elfaiz_smail" target="_blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"     alt="Smail El Faiz" height="30" width="40" /></a>
   </p>
 
