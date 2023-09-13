@@ -43,7 +43,7 @@
   </div>
   <div class='item'>
     <h3>
-      <img width="40px" height="40px" style="margin-bottom: -12px;" src="https://github.com/Selfaiz/Selfaiz/assets/95699649/7c1e9b7f-47fa-4d77-a7bd-56cb580d92e8"/>
+      <img width="40px" height="40px" style="margin-bottom: -12px;" src="https://cdn-icons-png.flaticon.com/512/5680/5680565.png"/>
       DevOps & Tools :
     </h3>
     <p>
