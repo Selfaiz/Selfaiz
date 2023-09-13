@@ -1,8 +1,10 @@
-<div>
-  
-  <h1 align="center">Hi 👋 It's me, Smail El Faiz</h1>
-  <h3 align="center">👨‍💻 Web Developer</h3>
-  
+
+<h1><img style="margin-bottom: -2px;" src="https://emojis.slackmojis.com/emojis/images/1643514974/10003/catjam.gif?1643514974" width="30"/> Hey!  Nice to see you.</h1>
+
+<h4 align="center"> It's me, <b> Smail El Faiz </b> </br> I'm Fullstack developer from 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg"  style="border-radius: 13%; margin-top:10px;" width="25px"/> 
+  <b>Morroco</b>
+</h4>
   <p align="left"> <img src="https://komarev.com/ghpvc/?username=selfaiz&label=Profile%20views&color=0e75b6&style=flat" alt="selfaiz" /> </p>
   
   - 👨‍💻 All of my projects Coming Soon at <a href='smailelfaiz.com'> Here</a>
@@ -21,31 +23,32 @@
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"     alt="Smail El Faiz" height="30" width="40" /></a>
   </p>
 
+<div class="group">
   <div class='item'>
     <h3 >🏵️Front-End Languages:</h3>
     <p>
         <a href="#">
-          <img src="https://skillicons.dev/icons?i=react,redux,bootstrap,js,jquery,css,html" />
+          <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,jquery,react,redux" />
         </a>
     </p>  
   </div>
 
   <div class='item'>
-     <h3>🕷️Back-End Languages:</h3>
+     <h3>🕷️Back-End Languages & SGBD & CMS:</h3>
     <p>
         <a href="#">
-          <img src="https://skillicons.dev/icons?i=php,laravel,expressjs" />
+          <img src="https://skillicons.dev/icons?i=php,laravel,expressjs,mysql,mongodb,wordpress" />
         </a>
     </p>  
   </div>
   <div class='item'>
     <h3>
       <img width="40px" height="40px" style="margin-bottom: -12px;" src="https://github.com/Selfaiz/Selfaiz/assets/95699649/7c1e9b7f-47fa-4d77-a7bd-56cb580d92e8"/>
-      DevOps & Tools:
+      DevOps & Tools :
     </h3>
     <p>
         <a href="#">
-          <img src="https://skillicons.dev/icons?i=docker,git,github,figma" />
+          <img src="https://skillicons.dev/icons?i=docker,git,github,figma,postman" />
         </a>
     </p>
   </div>
@@ -54,17 +57,26 @@
      <h3>Current Learning :</h3>
       <p>
         <a href="#">
-          <img src="https://skillicons.dev/icons?i=nextjs,tailwindcss" />
+          <img src="https://skillicons.dev/icons?i=nextjs,tailwindcss,threejs" />
         </a>
       </p>   
   </div>
-  
+ </div> 
  
+<h2 align="center">
+  📊 Analytic Stats:
+</h2> 
 
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Selfaiz&title_color=6FDA44&text_color=FFFFFF&show_icons=true&icon_color=6FDA44&include_all_commits=true&count_private=true&theme=gruvbox" height="180"/>
+     <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Selfaiz&layout=compact&title_color=6FDA44&text_color=FFFFFF&theme=dark" height="180"/>
+</div>
 
-
-
-
+<div align="center">
+  
+  ### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+</div>
 
 
 
@@ -78,3 +90,17 @@
 
 
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
