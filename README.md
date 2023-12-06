@@ -7,7 +7,7 @@
 </h4>
   <p align="left"> <img src="https://komarev.com/ghpvc/?username=selfaiz&label=Profile%20views&color=0e75b6&style=flat" alt="selfaiz" /> </p>
   
-  - 👨‍💻 All of my projects Coming Soon at <a href='https://smf.vercel.app/'> Here</a>
+  - 👨‍💻 All of my projects Coming Soon at <a target='_blank' href='https://smf.vercel.app/'> Here</a>
   
   - 📫 How to reach me **smailelfaiz@gmail.com**
   
