@@ -1,8 +1,9 @@
 
 <h1><img style="margin-bottom: -2px;" src="https://emojis.slackmojis.com/emojis/images/1643514974/10003/catjam.gif?1643514974" width="30"/> Hey!  Nice to see you.</h1>
 
-<h4 align="center"> It's me, <b> Smail El Faiz </b> </br> I'm Fullstack developer from 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg"  style="border-radius: 13%; margin-top:10px;" width="25px"/> 
+<h4 align="center"> It's me, <b> Smail El Faiz </b> <br/> <br/>  I'm Fullstack developer from
+<!--   <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg"  style="border-radius: 13%; margin-top:10px;" width="25px"/>  -->
+  <img src="https://cdn-icons-png.flaticon.com/512/197/197551.png" width="13"/>
   <b>Morroco</b>
 </h4>
   <p align="left"> <img src="https://komarev.com/ghpvc/?username=selfaiz&label=Profile%20views&color=0e75b6&style=flat" alt="selfaiz" /> </p>
