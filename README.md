@@ -1,41 +1,51 @@
-<h1 align="center">Smail EL Faiz</h1>
+<h1 align="center">Smail El Faiz</h1>
+
+<p align="center"><b>Systems built for compliance and durability.</b></p>
 
 <p align="center">
-  <b>I build back-office systems that survive audits.</b>
-</p>
-<p align="center">
-  <sub>ERP &amp; finance · banking &amp; tax · fleet telematics · document AI — regulated industries</sub><br/>
-  <sub>Morocco · FR / EN · part of <a href="https://github.com/ManagTech">@ManagTech</a></sub>
+  <sub>ERP &amp; finance · banking &amp; tax integration · fleet telematics · document AI · mobile</sub><br/>
+  <sub>Rabat, Morocco · FR / EN</sub>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Selfaiz/Selfaiz/master/assets/contrib.1cb52bab.svg" alt="Contribution activity: 2,583 contributions, 221 active days" />
-</p>
-
-## What I build
+<br/>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Selfaiz/Selfaiz/master/assets/modules.1cb52bab.svg" alt="Module map: shared services feed the ERP platform; standalone products keep their own lifecycle; Flutter mobile clients front both" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/schematic-dark.svg">
+    <img src="assets/schematic-light.svg" width="1000" alt="System schematic in four layers — data sources, ingestion, business rules, interfaces — with an audit trail running under every layer.">
+  </picture>
 </p>
 
-## Stack
+<br/>
 
-<table align="center">
-<tr><td align="right"><b>Backend</b></td><td><img src="https://skillicons.dev/icons?i=laravel,php,python,fastapi,flask,nodejs&theme=dark" alt="Laravel, PHP, Python, FastAPI, Flask, Node.js" /></td></tr>
-<tr><td align="right"><b>Frontend</b></td><td><img src="https://skillicons.dev/icons?i=ts,react,nextjs,vite,tailwind,redux&theme=dark" alt="TypeScript, React, Next.js, Vite, Tailwind, Redux" /></td></tr>
-<tr><td align="right"><b>Mobile</b></td><td><img src="https://skillicons.dev/icons?i=flutter,dart,firebase,kotlin,swift&theme=dark" alt="Flutter, Dart, Firebase, Kotlin, Swift" /></td></tr>
-<tr><td align="right"><b>Data</b></td><td><img src="https://skillicons.dev/icons?i=postgres,mysql,redis,sqlite,sklearn,prisma&theme=dark" alt="PostgreSQL, MySQL, Redis, SQLite, scikit-learn, Prisma" /></td></tr>
-<tr><td align="right"><b>Infra</b></td><td><img src="https://skillicons.dev/icons?i=docker,githubactions,nginx,linux,cloudflare,vercel&theme=dark" alt="Docker, GitHub Actions, Nginx, Linux, Cloudflare, Vercel" /></td></tr>
-<tr><td align="right"><b>Tooling</b></td><td><img src="https://skillicons.dev/icons?i=git,github,figma,postman,vscode,bash&theme=dark" alt="Git, GitHub, Figma, Postman, VS Code, Bash" /></td></tr>
-</table>
+I build and maintain back-office systems for regulated industries — the parts of a business that have to be correct rather than pretty: money, positions, documents, permissions.
 
-## By the numbers
+Most of that work is private, so there are no screenshots here. What I can show is how the systems are built.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Selfaiz/Selfaiz/master/assets/stats.1cb52bab.svg" alt="Primary language across 182 repositories and sector coverage across 95 repositories" />
-</p>
+### How I work
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/smailelfaiz/"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="LinkedIn" /></a>
-  <a href="mailto:smail20.elfaiz@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" alt="Email" /></a>
-</p>
+Three modes, often on the same system. **Maintaining** software already in production — incidents, corrective and evolutive maintenance, user support. **Building** — new modules, features and platforms. **Integrating** with systems nobody controls — banks, tax authorities, GPS hardware, messaging providers, the system being replaced.
+
+I started on the maintenance side of an ERP in production before extending it. That order teaches early which shortcuts become incidents, what an audit trail is actually for, and why the boring parts of a system are the ones that keep it alive.
+
+### Where
+
+| Sector | The design problem | How I approach it |
+|---|---|---|
+| ERP & finance | Money moves through a chain of documents that arrive late, out of order or twice — and every total must still reconcile | Append-only document history; reconciliation as a first-class read model |
+| Banking & tax integration | Formats you don't control, from systems that aren't always available, where one mismatched line is a compliance matter | Keep the original file as evidence; idempotent ingestion; deterministic matching with a human queue for the ambiguous cases |
+| Fleet telematics | One continuous stream of positions serving three very different reads: live map, playback, reporting | Separate ingestion from query — time-series for raw data, a current-state store for live views, pre-aggregated trips for reports |
+| Document AI (OCR / GED) | Extraction is confidently imperfect, and the last few percent carry most of the cost | Confidence thresholds with human review built into the product; extraction as a layer over an immutable original |
+| Messaging gateways | Delivery is asynchronous and providers behave differently | Outbox pattern with idempotent sends; "sent" and "delivered" tracked as distinct facts |
+| Portals & access control | Many roles, many tenants, one back-office | Authorise on resource · action · scope; tenancy enforced at the data layer, auditable |
+| Migration & integration | The incumbent system can't stop while it's being replaced | Strangler pattern — run both in parallel, reconcile continuously, migrate reads before writes |
+
+### Stack, briefly
+
+**Laravel** for business systems a team maintains for years · **TypeScript / React** for back-office interfaces · **Python** for OCR, data and scraping work · **Flutter** for the mobile clients · **PostgreSQL / MySQL / Redis**, boring on purpose · **Docker + GitHub Actions** from day one.
+
+### Elsewhere
+
+[LinkedIn](https://www.linkedin.com/in/smailelfaiz/) · [smailelfaiz@gmail.com](mailto:smailelfaiz@gmail.com)
+
+<!-- Add · [smailelfaiz.com](https://smailelfaiz.com) the day the site is live. Never leave a dead link on this page. -->
